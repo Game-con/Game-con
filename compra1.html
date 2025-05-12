@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Minecraft - Tienda de Juegos</title>
-    <link rel="stylesheet" href="diseño.css">
-    <script>
-        function comprar() {
-            alert("¡Compra completada!");
-        }
-    </script>
+    <link rel="stylesheet" href="diseño.css" />
 </head>
 <body>
     <header>
         <nav>
-            <img src="C:\Users\vnogu\Downloads\Logo2.png" width="250px">
-            <input type="text" placeholder="Buscar..." class="search-bar">
+            <img src="Logo2.png" width="250px" alt="Logo GameShop" />
+            <input type="text" placeholder="Buscar..." class="search-bar" />
             <ul>
                 <li><a href="prueba.html">Inicio</a></li>
                 <li><a href="consolas.html">Consolas</a></li>
                 <li><a href="juegos.html">Juegos</a></li>
                 <li><a href="promociones1.html">Promociones</a></li>
+                <li><a href="cuenta.html">Mi cuenta</a></li>
             </ul>
         </nav>
     </header>
     
     <section id="producto" class="producto-detalle">
         <h2>Minecraft Bedrock Edition para PS4</h2>
-        <img src="C:\Users\vnogu\Downloads\minecraft.jpg" alt="Minecraft PS4" width="300px">
+        <img src="minecraft.jpg" alt="Minecraft PS4" width="300px" />
         <p><strong>Precio:</strong> $779</p>
-        <button onclick="comprar()">Comprar</button>
+        <button onclick="window.location.href='tarjeta.html'">Comprar</button>
         
         <h3>Acerca del juego</h3>
         <p><strong>Mercado:</strong> ¡Descubre las últimas creaciones de la comunidad en el mercado! Obtenga mapas, máscaras y paquetes de texturas únicos de sus creadores favoritos.</p>
