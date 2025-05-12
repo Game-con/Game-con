@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pago con tarjeta</title>
+    <link rel="stylesheet" href="diseño.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="C:\Users\vnogu\Downloads\Logo2.png" width="250px" alt="Logo GameShop" />
+            <input type="text" placeholder="Buscar..." class="search-bar" />
+            <ul>
+                <li><a href="prueba.html">Inicio</a></li>
+                <li><a href="consolas.html">Consolas</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="promociones1.html">Promociones</a></li>
+                <li><a href="cuenta.html">Mi cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pago-container">
+        <h2>Información de pago</h2>
+        <form action="prueba.html" method="post" class="form-pago">
+            <label for="nombre">Nombre del titular:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="numero">Número de tarjeta:</label>
+            <input type="text" id="numero" name="numero" maxlength="19" placeholder="1234 5678 9012 3456" required />
+
+            <label for="vencimiento">Fecha de vencimiento (MM/AA):</label>
+            <input type="text" id="vencimiento" name="vencimiento" maxlength="5" placeholder="MM/AA" required />
+
+            <label for="cvv">Código CVV:</label>
+            <input type="text" id="cvv" name="cvv" maxlength="4" required />
+
+            <button type="submit">Pagar ahora</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 GameShop. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
